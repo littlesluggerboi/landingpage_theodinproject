@@ -1,0 +1,155 @@
+*{
+    outline: 1px solid red;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+/* part1 css */
+.top {
+    padding: 32px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    gap: 64px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+.header > p {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+/* part2 css */
+.content-one> img{
+    width: 800px;
+    height: 300px;
+}
+.content-one, .hero{
+    display: flex;
+    justify-content: center;
+}
+.content-one{
+    gap: 100px;
+}
+.hero {
+    color: #f9faf8;
+    flex-direction: column;
+}
+
+.hero .main {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+}
+ /* part 3 css */
+.content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 200px;
+    gap: 32px;
+}
+
+.elements {
+    gap: 32px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.element{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.content-two img{
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.information{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+ /* part 4 css */
+ .content-three {
+    background: #e5e7eb;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 200px;
+ }
+.content-three span{
+    display: block;
+    text-align: end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+}
+/* part 5 css*/
+.content-four {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 200px;
+    padding: 75px 150px;
+    background-color: #3882f6;
+}
+.content-four p{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+.content-four button{
+    width: 125px;
+    border-color: #f9faf8;
+}
+
+
+ /* footer css */
+ .footer{
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 75px 0;
+ }
